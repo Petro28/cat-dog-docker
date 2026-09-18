@@ -1,0 +1,36 @@
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  display: grid;
+  place-items: center;
+  font-family: system-ui, sans-serif;
+  background: #f4f7f4;
+  color: #1f2937;
+}
+
+.card {
+  width: min(90%, 460px);
+  padding: 2rem;
+  text-align: center;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 8px 24px #0002;
+}
+
+button {
+  padding: .75rem 1rem;
+  border: 0;
+  border-radius: 8px;
+  background: #2563eb;
+  color: #fff;
+  font: inherit;
+  cursor: pointer;
+}
+
+button:hover { background: #1d4ed8; }
+button:disabled { opacity: .6; cursor: wait; }
+
+#dog, #error { margin-top: 1.5rem; }
+#error { color: #b91c1c; }

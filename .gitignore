@@ -1,0 +1,16 @@
+# Environment / secrets
+.env
+*.key
+
+# PostgreSQL runtime data
+**/data/
+*.dump
+*.backup
+
+# Logs
+*.log
+
+# OS / editor files
+.DS_Store
+.vscode/
+.idea/

@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Dog Generator</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="card">
+    <h1>Dog Generator</h1>
+    <a href="https://cats.example.local">Go to Cats</a>
+    <button id="generate" type="button">Generate Dog</button>
+
+    <section id="dog" hidden aria-live="polite">
+      <h2 id="name"></h2>
+      <p id="description"></p>
+    </section>
+
+    <p id="error" role="alert" hidden></p>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>
