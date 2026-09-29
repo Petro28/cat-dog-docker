@@ -147,10 +147,6 @@ POSTGRES_PASSWORD=change-this-password
 POSTGRES_DB=practice
 ```
 
-Do not commit `.env`.
-
-The `.env` file is intentionally excluded by `.gitignore`.
-
 ### Start the backend
 
 From `vm2-app`:
